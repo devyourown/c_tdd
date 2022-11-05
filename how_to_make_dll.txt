@@ -1,0 +1,2 @@
+gcc -c file.c  / object 만들기
+gcc -shared -o file.dll file.o / dll 만들기

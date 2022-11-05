@@ -13,3 +13,7 @@ class CalculateTest(unittest.TestCase):
 
     def testMultiply(self):
         self.assertEqual(3*3, calculate.multiply(3, 3))
+
+
+if __name__ == '__main__':
+    unittest.main()
